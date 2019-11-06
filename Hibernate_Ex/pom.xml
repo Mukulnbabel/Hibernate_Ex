@@ -19,12 +19,22 @@
     <url>https://code.lds.org/nexus/content/groups/main-repo</url>
     </repository>
 </repositories>
-
-
- 
-  <!-- MySQL database driver -->
-	
-
+<build>
+<plugins>
+	<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-jar-plugin</artifactId>
+	<version>2.4</version>
+	<configuration>
+	  <archive>
+	    <manifest>
+		<mainClass>com.lti.HibernateProject.Hibernate_Ex.App</mainClass>
+	    </manifest>
+	  </archive>
+	</configuration>
+    </plugin>
+    </plugins>
+</build>
   <dependencies>
   <!-- MySQL database driver -->
 	 <dependency>
@@ -47,11 +57,11 @@
 		<version>1.6.1</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.jboss.logging/jboss-logging -->
-<!-- <dependency>
+ <dependency>
     <groupId>org.jboss.logging</groupId>
     <artifactId>jboss-logging</artifactId>
     <version>3.3.1.Final</version>
-</dependency> -->
+</dependency>
 
 
 
