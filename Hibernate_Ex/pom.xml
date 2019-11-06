@@ -55,9 +55,10 @@
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-commons-annotations -->
 <dependency>
     <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-commons-annotations</artifactId>
-    <version>3.3.0.ga</version>
+<artifactId>hibernate-annotations</artifactId>
+<version>3.3.1.GA</version>
 </dependency>
+
 
 
 	<dependency>
