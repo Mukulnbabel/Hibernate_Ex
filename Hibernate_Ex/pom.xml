@@ -2,33 +2,28 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.lti.HibernateProject</groupId>
-  <artifactId>Hibernate_Ex</artifactId>
+  <groupId>com.lti.Hibernate_Maven</groupId>
+  <artifactId>Hibernate_Proj1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Hibernate_Ex</name>
+  <name>Hibernate_Proj1</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
+
+
+<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-<repositories>
-    <repository>
-    <id>codelds</id>
-    <url>https://code.lds.org/nexus/content/groups/main-repo</url>
-    </repository>
-</repositories>
-
 
   <dependencies>
   <!-- MySQL database driver -->
-	 <dependency>
-   <groupId>com.oracle</groupId>
-<artifactId>ojdbc14</artifactId>
-<version>10.2.0</version>
-</dependency>
 
+			<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0</version>
+		</dependency>
 	<!-- Hibernate framework -->
 	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 <dependency>
@@ -36,8 +31,6 @@
     <artifactId>hibernate-core</artifactId>
     <version>4.3.0.Final</version>
 </dependency>
-
-
 
 	<!-- Hibernate library dependecy start -->
 	<dependency>
@@ -51,10 +44,6 @@
     <artifactId>jboss-logging</artifactId>
     <version>3.3.1.Final</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-commons-annotations -->
-
-
 
 
 	<dependency>
@@ -75,5 +64,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+
+
+
 </project>
