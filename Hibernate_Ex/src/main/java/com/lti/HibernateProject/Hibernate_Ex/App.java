@@ -13,12 +13,12 @@ public class App
     	StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties());
     	SessionFactory factory = configuration.buildSessionFactory(builder.build());
     	Session session=factory.openSession();
-    	Employee emp=new Employee();
+    	Employee employee=new Employee();
     	
-    	emp.setEmpName("mukul");
-    	emp.setBranch("CSE");
+    	employee.setEmpName("mukul");
+    	employee.setBranch("CSE");
     	session.beginTransaction();
-    	session.save(emp);
+    	session.save(employee);
     	session.getTransaction().commit();
     }
 }
