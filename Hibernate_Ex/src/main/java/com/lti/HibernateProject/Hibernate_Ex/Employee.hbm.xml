@@ -12,7 +12,7 @@
            <param name="sequence">emp_id</param>
            </generator>
       </id>
-      <property name="empName" column="ampName"/>
+      <property name="empName" column="empName"/>
       <property name="branch" column="branch"/>
    </class>
 </hibernate-mapping>
