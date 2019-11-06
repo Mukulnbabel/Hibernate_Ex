@@ -30,7 +30,7 @@
 		<groupId>hibernate-commons-annotations</groupId>
 		<artifactId>hibernate-commons-annotations</artifactId>
 		<version>3.0.0.GA</version>
-	</dependency>
+</dependency>
 
 	<!-- Hibernate library dependecy start -->
 	<dependency>
