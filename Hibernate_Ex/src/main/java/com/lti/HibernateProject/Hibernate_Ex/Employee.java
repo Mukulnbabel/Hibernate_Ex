@@ -22,6 +22,19 @@ public String getBranch() {
 public void setBranch(String branch) {
 	this.branch = branch;
 }
+public Employee(int id, String empName, String branch) {
+	super();
+	this.id = id;
+	this.empName = empName;
+	this.branch = branch;
+}
+@Override
+public String toString() {
+	return "Employee [id=" + id + ", empName=" + empName + ", branch=" + branch + "]";
+}
+public Employee() {
+	super();
+}
 
 
 }

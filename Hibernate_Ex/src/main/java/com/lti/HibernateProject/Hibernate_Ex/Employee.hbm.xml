@@ -13,6 +13,6 @@
            </generator>
       </id>
       <property name="empName" column="empName"/>
-      <property name="branch" column="branch"/>
+      <property name="branch" />
    </class>
 </hibernate-mapping>
