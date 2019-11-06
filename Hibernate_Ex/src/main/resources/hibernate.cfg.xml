@@ -14,8 +14,7 @@
          <property name="hibernate.connection.pool_size">1</property>
          
          <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>  
-         <property name="cache.use_second_level_cache">true</property>   
-         <property name="cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>  
+       
      <mapping resource="com/lti/HibernateProject/Hibernate_Ex/Employee.hbm.xml"/>  
     </session-factory>    
 </hibernate-configuration>    
