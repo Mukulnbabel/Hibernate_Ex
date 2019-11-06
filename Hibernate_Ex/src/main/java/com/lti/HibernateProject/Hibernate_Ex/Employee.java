@@ -28,6 +28,9 @@ public Employee(int id, String empName, String branch) {
 	this.empName = empName;
 	this.branch = branch;
 }
+public Employee() {
+	// TODO Auto-generated constructor stub
+}
 @Override
 public String toString() {
 	return "Employee [id=" + id + ", empName=" + empName + ", branch=" + branch + "]";
