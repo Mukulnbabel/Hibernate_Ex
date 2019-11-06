@@ -47,11 +47,11 @@
 		<version>1.6.1</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.jboss.logging/jboss-logging -->
-<dependency>
+<!-- <dependency>
     <groupId>org.jboss.logging</groupId>
     <artifactId>jboss-logging</artifactId>
     <version>3.3.1.Final</version>
-</dependency>
+</dependency> -->
 
 
 
