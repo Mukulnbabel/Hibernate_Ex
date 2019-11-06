@@ -21,14 +21,17 @@
 </repositories>
 
 
+ 
+  <!-- MySQL database driver -->
+	
+
   <dependencies>
   <!-- MySQL database driver -->
 	 <dependency>
    <groupId>com.oracle</groupId>
 <artifactId>ojdbc14</artifactId>
-<version>10.2.0</version>
+<version>10.2.0.3</version>
 </dependency>
-
 	<!-- Hibernate framework -->
 	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 <dependency>
@@ -36,8 +39,6 @@
     <artifactId>hibernate-core</artifactId>
     <version>4.3.0.Final</version>
 </dependency>
-
-
 
 	<!-- Hibernate library dependecy start -->
 	<dependency>
@@ -53,9 +54,11 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-commons-annotations -->
-
-
-
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-commons-annotations</artifactId>
+    <version>3.3.0.ga</version>
+</dependency>
 
 	<dependency>
 		<groupId>javax.transaction</groupId>
@@ -75,5 +78,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
 </project>
