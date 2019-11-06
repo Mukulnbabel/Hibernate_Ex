@@ -26,11 +26,11 @@
 		</dependency>
 	<!-- Hibernate framework -->
 	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>4.3.0.Final</version>
-</dependency>
+ <dependency>
+		<groupId>hibernate-commons-annotations</groupId>
+		<artifactId>hibernate-commons-annotations</artifactId>
+		<version>3.0.0.GA</version>
+	</dependency>
 
 	<!-- Hibernate library dependecy start -->
 	<dependency>
