@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	Configuration configuration=new  Configuration().configure();
+    	Configuration configuration = new  Configuration().configure();
     	StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties());
     	SessionFactory factory = configuration.buildSessionFactory(builder.build());
     	Session session=factory.openSession();
