@@ -1,9 +1,12 @@
 package com.lti.HibernateProject.Hibernate_Ex;
 
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
+
+import com.lti.HibernateProject.Hibernate_Ex.Employee;
 
 public class App 
 {
